@@ -1,19 +1,15 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+
 import Listar from '../components/Listar.vue'
 import Crear from '../components/Crear.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  
   {
     path: '/',
-    name: 'Home',
-    component: Home
-  },
-  {
-    path: '/listar',
     name: 'Listar',
     component: Listar
   },
